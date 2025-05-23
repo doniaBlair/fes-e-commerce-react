@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './pages/Home';
@@ -39,10 +39,6 @@ function App() {
         });
         return counter;
     }
-
-    // useEffect(() => {
-    //     console.log('cart', cart);
-    // }, [cart]);
 
     return (
         <Router>
